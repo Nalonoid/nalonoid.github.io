@@ -1,0 +1,45 @@
+ <!-- projects Modals -->
+ {% for post in site.posts %}
+    <div class="projects-modal modal fade" id="{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <a href="#_">
+              <div class="close-modal" data-dismiss="modal">
+              </div>
+            </a>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>{{ post.title }}</h2>
+                            <hr class="star-primary">
+
+                            {% if post.img1 != "" %}
+                              <div class="side-images">
+                            {% endif %}
+
+                            <img src="img/projects/{{ post.img }}" class="img-responsive img-centered side-img" alt="{{ post.alt }}">
+
+                            {% if post.img1 != "" %}
+                                <img src="img/projects/{{ post.img1 }}" class="img-responsive img-centered side-img" alt="{{ post.alt }}">
+                            {% endif %}
+                            <p class="side-desc">{{ post.description }}</p>
+
+                            {% if post.img1 != "" %}
+                                <p class="side-desc">{{ post.description1 }}</p>
+                              </div>
+                            {% endif %}
+
+                            <div class="project-content">{{ post.content }}</div>
+                            <div class="project-tags">
+                              <p>Type: {{ post.type }}</p>
+                              <p>Date: {{ post.project-date }}</p>
+                              <p>Tags: {{ post.project-tags }}</p>
+                            </div>
+                            <a href="#_" class="btn btn-xl" data-dismiss="modal">BACK</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}

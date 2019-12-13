@@ -1,0 +1,4 @@
+{% include css/lightbox.css %}
+{% include css/bootstrap.min.css %}
+{% include css/agency.css %}
+{{ content }}

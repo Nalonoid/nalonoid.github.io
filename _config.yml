@@ -1,0 +1,43 @@
+url: https://nalonoid.github.io
+baseurl:
+
+# Site settings
+title: Nolan Mestres
+email: nolan.mestres@inria.fr
+description: "Nolan Mestres, first year PhD student in Computer Graphics, webpage."
+
+# images
+defaults:
+  - scope:
+      path: "img"
+    values:
+      image: false
+      camera: none
+      display_order: none
+  - scope:
+      path: "img/gallery/petri"
+    values:
+      image: true
+      camera: Petri Penta VI 1965
+      display_order: 0
+  - scope:
+      path: "img/gallery/minolta"
+    values:
+      image: true
+      camera: Minolta Hi-Matic SD 1978
+      display_order: 1
+  - scope:
+      path: "img/gallery/canon"
+    values:
+      image: true
+      camera: Canon AL-1 1982
+      display_order: 2
+  - scope:
+      path: "img/gallery/digital"
+    values:
+      image: true
+      camera: Digital
+      display_order: 3
+
+# Build settings
+permalink: pretty
