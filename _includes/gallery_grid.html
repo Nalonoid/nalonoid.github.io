@@ -18,7 +18,7 @@
   </div>
   <a href="#_">
     <div class="lightbox" id="lb-{{ image.basename }}">
-      <img src="{{ image.path }}"/>
+      <img data-src="{{ image.path }}" class="lazyload"/>
       <div class="caption-container">
         <div>{{ metadata.desc }}</div>
         {% if metadata.modl %}
