@@ -1,14 +1,12 @@
 ---
 title: Painterly stylization of pictures
 subtitle: Master 2 year-end project
-post-type: "project"
 layout: default
 modal-id: "painty"
 date: 2018-02-01
 img: chef_doeuvre0.png
 img1: ""
 thumbnail: chef_doeuvre-thumbnail.png
-alt: image-alt
 project-date: "feb. 2018"
 type: group project
 project-tags: "expressive rendering, painterly rendering, optimization problem, image processing"

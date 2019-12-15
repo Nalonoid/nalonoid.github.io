@@ -1,5 +1,4 @@
 ---
-alt: image-alt
 date: 2017-11-01
 description: "Subdivision of the Utah teapot using my Loop implementation"
 description1: ""
@@ -7,7 +6,6 @@ img: teapots_plain.jpg
 img1: ""
 layout: default
 modal-id: loop
-post-type: "project"
 project-date: "nov. 2017"
 project-tags: "geometry, mesh subdivision, loop"
 thumbnail: teapots_plain-thumbnail.jpg
