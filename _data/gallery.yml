@@ -104,6 +104,12 @@
   plac: Budapest, Hungary
   came: Digital
 
+- file: p003
+  desc: Wardrobe to Narnia?
+  date: Mai 2017
+  plac: Kazimierz, Kraków, Poland
+  came: Digital
+
 - file: p008
   desc: Street art by Hendrik Beikrich
   date: September 2017
@@ -197,7 +203,7 @@
 - file: p027
   desc: Fiery sky
   date: July 2018
-  plac: Kyōto, Japan
+  plac: Tōkyō, Japan
   came: Digital
 
 - file: p028
@@ -325,10 +331,4 @@
   desc: A rascal deer to exorcise?
   date: December 2018
   plac: Nara, Japan
-  came: Digital
-
-- file: p058
-  desc: Wardrobe to Narnia?
-  date: December 2018
-  plac: Kazimierz, Kraków, Poland
   came: Digital
