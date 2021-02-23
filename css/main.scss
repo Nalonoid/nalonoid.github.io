@@ -1,0 +1,70 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+$base-font-family: 'EB Garamond', serif;
+$base-font-size:   .5cm;
+$small-font-size:  0.875em;
+$vsmall-font-size: 0.66em;
+$base-line-height: 1.5;
+$spacing-unit:     1.5em;
+
+$grey-vlight:  #eee;
+$grey-light:   #aaa;
+$grey:         #888;
+$grey-dark:    #444;
+$grey-vdark:   #222;
+$light-purple: #a68aeb;
+$yellow:       #f5d56c;
+$blue:         #0091ed;
+$orange:       #ca6c18;
+$red:          #b6321c;
+
+$background:        $grey-vdark;
+$dark-background:   darken($background, 5%);
+$text-color:        $grey-vlight;
+$text-light-color:  $grey;
+$url-color:         $light-purple;
+$url-hover-color:   $yellow;
+$header-text-color: $text-light-color;
+$header-hover-color:$text-color;
+$header-hover-url:  $url-color;
+$line-color:        $grey-dark;
+
+// Width of the content area
+$content-width:    60em;
+$content-min-width:15em;
+$mobile:           32em;
+$desktop:          60em;
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+    "header",
+    "mobile-header",
+    "base",
+    "footer",
+    "page",
+    "syntax-highlighting",
+    "fancy-image"
+;
+
+.publication-date {
+    background-color: $grey-dark;
+    line-height: 1.215;
+    margin-top: 1em;
+    margin-bottom: 0em;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.publication-type {
+    font-size:x-large;
+    font-weight: bold;
+}    

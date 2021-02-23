@@ -1,26 +1,11 @@
-  <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</li>
-                        <li><a href="credits.html">Credits</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li>(Signal) +33 6 59 02 87 85
-                        </li>
-                        <li><a href="mailto:nolan.mestres@inria.fr">nolan.mestres@inria.fr</a>
-                        </li>
-                        <li><a href="./res/nolan_mestres-resume.pdf">Curriculum Vitae</a>
-                        </li>
-                        <li><a href="http://github.com/Nalonoid">GitHub</a>
-                        </li>
-                        <li><a href="https://www.linkedin.com/in/nolanmestres">LinkedIn</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+<footer class="site-footer">
+   &copy; {{ site.description }} {{ site.time | date: '%Y' }} <br/>
+
+    Using <a href="http://jekyllrb.com/">Jekyll</a>
+    {% if site.sourcecode %}
+     :: <a href="{{ site.sourcecode }}">Website source</a>
+    {% endif %}
+    {% if site.analytics.provider and page.analytics != false %}
+     :: Analytics by {{ site.analytics.provider }}
+    {% endif %}
+</footer>

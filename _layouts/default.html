@@ -2,16 +2,17 @@
 <html>
 
   {% include head.html %}
-    <body id="page-top" class="index">
+
+  <body>
+  <div class="page">
     {% include header.html %}
-    {% include about.html %}
-    {% include projects_grid.html %}
-    {% include gallery.html %}
-    <div id="bottom" class="bottom-page">
-      {% include contact.html %}
-      {% include footer.html %}
+
+    {{ content }}
+
+    {% include footer.html %}
+
+    {% include analytics.html %}
     </div>
-    {% include modals.html %}
-    {% include js.html %}
-    </body>
+  </body>
+
 </html>

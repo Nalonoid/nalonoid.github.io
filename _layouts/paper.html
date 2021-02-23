@@ -1,0 +1,97 @@
+---
+layout: default
+---
+<div class="post">
+    <header class="post-header">
+    <h3>{{ page.title }}</h3>
+
+    {% if page.authors %}
+    <div class="paper-authors">
+    {{ page.authors }}<br/>
+    </div>
+    {% endif %}
+
+    <div class="paper-journal">
+    {% if page.where %}
+    {{ page.where }}, 
+    {% endif %}    
+    {{ page.date | date: '%B  %Y' }} {% if page.award %} <span class="paper-award"> &#8680; {{ page.award }} </span>{% endif %}<br/><br/>
+
+    {% if page.pdf %}
+    <a href={{ page.pdf }}> <img src="{{ site.url | append: site.baseurl }}/data/icons/pdf.png"  width="25px" /></a>
+    <a class="paper-links" href={{ page.pdf }}> paper </a>
+    &nbsp;&nbsp;
+    {% endif %}    
+
+    {% if page.supp %}
+    <a href={{ page.supp }}> <img src="{{ site.url | append: site.baseurl }}/data/icons/pdf.png"  width="25px" /></a>
+    <a class="paper-links" href={{ page.supp }}> supplementary </a>
+    &nbsp;&nbsp;
+    {% endif %}    
+
+    {% if page.archive %}
+    <a href={{ page.archive }}> <img src="{{ site.url | append: site.baseurl }}/data/icons/zip.png"  width="25px" /></a>
+    <a class="paper-links" href={{ page.archive }}> archive </a>
+    &nbsp;&nbsp;
+    {% endif %}   
+
+    {% if page.src %}
+    <a href={{ page.src }}> <img src="{{ site.url | append: site.baseurl }}/data/icons/zip.png"  width="25px" /></a>
+    <a class="paper-links" href={{ page.src }}> sources </a>
+    &nbsp;&nbsp;
+    {% endif %}   
+
+    {% if page.app %}
+    <a href={{ page.app }}> <img src="{{ site.url | append: site.baseurl }}/data/icons/zip.png"  width="25px" /></a>
+    <a class="paper-links" href={{ page.app }}> demo </a>
+    &nbsp;&nbsp;
+    {% endif %}   
+
+    {% if page.video %}
+    <a href={{ page.video }}> <img src="{{ site.url | append: site.baseurl }}/data/icons/vid.png"  width="25px" /></a>
+    <a class="paper-links" href={{ page.video }}> video </a>
+    &nbsp;&nbsp;
+    {% endif %}   
+
+    {% if page.bib %}
+    <a href={{ page.bib }}> <img src="{{ site.url | append: site.baseurl }}/data/icons/bib.png"  width="25px" /></a>
+    <a class="paper-links" href={{ page.bib }}> bib </a>
+    &nbsp;&nbsp;
+    {% endif %}   
+
+    {% if page.shadertoy %}
+    <a href="#shadertoy"> <img src="{{ site.url | append: site.baseurl }}/data/icons/shadertoy.png"  width="60px" /></a>
+    <a class="paper-links" href="https://www.shadertoy.com/view/{{ page.shadertoy }}"></a>
+    &nbsp;&nbsp;
+    {% endif %}   
+
+    {% if page.vimeo %}
+    <a href="#vimeo"> <img src="{{ site.url | append: site.baseurl }}/data/icons/vimeo.svg"  width="60px" /></a>
+    <a class="paper-links" href="https://vimeo.com/{{ page.vimeo }}"></a>
+    &nbsp;&nbsp;
+    {% endif %}   
+    <br/><br/>
+    </div>
+
+    {% if page.image %}
+    <img class="aligncenter" src="{{ site.url | append: site.baseurl }}/{{ page.image }}"  height="400px" /><br/>
+    {% endif %}
+
+    {% if page.abstract %}
+    <h2> Abstract </h2>
+    <p class="paper-abstract">{{ page.abstract }}</p>
+    {% endif %}
+
+    {% if page.shadertoy %}
+    <h2 id="shadertoy"> Shadertoy </h2>
+    <iframe class="aligncenter" width="800" height="450" frameborder="0" src="https://www.shadertoy.com/embed/{{ page.shadertoy }}?gui=true&t=10&paused=true&muted=false" align="middle"></iframe>
+    {% endif %}
+
+    {% if page.vimeo %}
+    <h2 id="vimeo"> Video </h2>
+    <iframe class="aligncenter" src="https://player.vimeo.com/video/{{ page.vimeo }}" align="middle" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    {% endif %}
+
+    <br/>
+    {{ content }}
+</div>
