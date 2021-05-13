@@ -1,6 +1,13 @@
 <div class="captioned-img align{{include.align}}">
     <!-- <a href="{{ include.url }}"> -->
-    {% if include.width %}
+    {% if include.me %}
+    <script type="text/javascript">
+	function getRandomItem(arr) { return arr[Math.floor((Math.random()-.001) * arr.length)]; }
+    	var imgs = [ '0.jpg', '1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg' ];
+	var me 	 = getRandomItem(imgs);
+	document.write('<img src="data/images/me/' + me + '" height="{{ include.height }}" />');
+    </script>
+    {% else if include.width %}
     <img src="{{ include.url }}" width="{{ include.width }}" />
     {% else if include.height %}
     <img src="{{ include.url }}" height="{{ include.height }}" />
@@ -8,3 +15,4 @@
     <img src="{{ include.url }}" />
     {% endif %}<!--</a>-->{% if include.caption %}{{ include.caption }}{% endif %}
 </div>
+
