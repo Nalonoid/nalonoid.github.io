@@ -13,7 +13,7 @@ pdf: https://hal.inria.fr/hal-03140647/document
 video: https://hal.inria.fr/hal-03140647/file/nm-EG2021-local_light_alignment-supplementary_video.mp4
 bib: https://hal.inria.fr/hal-03140647/bibtex
 shadertoy: "3ldfD2"
-vimeo: "515376926"
+vimeo: "548931751"
 
 tags:
 - journal
