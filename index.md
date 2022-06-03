@@ -6,7 +6,7 @@ permalink: /
 
 {% include image.html me="1" height="300px" align="right" caption="" %}
 
-My name’s **Nolan** Mestres. I’m a second year **PhD student** within [Maverick research team] (INRIA, Jean Kuntzmann Laboratory), under the supervision of [Joëlle Thollot] and [Romain Vergne]. I focus my work on **expressive rendering** and image stylization, taking inspiration from the case study of **panorama maps**.
+My name’s **Nolan** Mestres. I’m a third year **PhD student** within [Maverick research team] (INRIA, Jean Kuntzmann Laboratory), under the supervision of [Joëlle Thollot] and [Romain Vergne]. I focus my work on **expressive rendering** and image stylization, taking inspiration from the case study of **panorama maps**.
 I graduated in 2018 with a Master's degree in Computer Graphics & Image Analysis from Paul Sabatier University (Toulouse, France). I did my graduation internship under the supervision of [Imari Sato], at the National Institute of Informatics (Tokyo, Japan), working on spectral rendering and fluorescence. For more information about my educational background you can browse my (outdated) [resume].  
 
 ## Contact
@@ -24,3 +24,12 @@ INRIA Rhône-Alpes
 [Romain Vergne]: https://maverick.inria.fr/~Romain.Vergne/blog/
 [Imari Sato]: https://research.nii.ac.jp/~imarik/
 [resume]: ./data/nolan_mestres-resume.pdf
+
+[Local Light Alignment for Multi-Scale Shape Depiction]: ./research/local-light-alignment-for-multi-scale-shape-depiction
+[A Stylistic Study of the Hand-Painted Winter Panorama Maps of Pierre Novat]: ./research/a-stylistic-study-of-the-hand-painted-winter-panorama-maps-of-pierre-novat
+
+## News
+
+→06-2022 || My paper '[A Stylistic Study of the Hand-Painted Winter Panorama Maps of Pierre Novat]' has been accepted for publication at Cartographic Perspectives!
+→03-2021 || Our paper '[Local Light Alignment for Multi-Scale Shape Depiction]' has been accepted for publication at Eurographics 2021!
+→09-2018 || Got my master's degree from Toulouse III - Paul Sabatier University!
