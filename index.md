@@ -30,6 +30,6 @@ INRIA Rhône-Alpes
 
 ## News
 
-→06-2022 || My paper '[A Stylistic Study of the Hand-Painted Winter Panorama Maps of Pierre Novat]' has been accepted for publication at Cartographic Perspectives!
-→03-2021 || Our paper '[Local Light Alignment for Multi-Scale Shape Depiction]' has been accepted for publication at Eurographics 2021!
+→06-2022 || My paper '[A Stylistic Study of the Hand-Painted Winter Panorama Maps of Pierre Novat]' has been accepted for publication in Cartographic Perspectives!
+→03-2021 || Our paper '[Local Light Alignment for Multi-Scale Shape Depiction]' has been accepted for publication in Computer Graphics Forum (Eurographics 2021)!
 →09-2018 || Got my master's degree from Toulouse III - Paul Sabatier University!
