@@ -23,6 +23,12 @@ layout: default
     &nbsp;&nbsp;
     {% endif %}    
 
+    {% if page.pdfcmpr %}
+    <a href={{ page.pdfcmpr }}> <img src="{{ site.url | append: site.baseurl }}/data/icons/pdf.png"  width="25px" /></a>
+    <a class="paper-links" href={{ site.url | append: site.baseurl }}/{{ page.pdfcmpr }}> paper (low res) </a>
+    &nbsp;&nbsp;
+    {% endif %}    
+
     {% if page.supp %}
     <a href={{ page.supp }}> <img src="{{ site.url | append: site.baseurl }}/data/icons/pdf.png"  width="25px" /></a>
     <a class="paper-links" href={{ page.supp }}> supplementary </a>
