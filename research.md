@@ -8,14 +8,13 @@ permalink: /research/
 
 My main research interests are **expressive rendering and image synthesis stylization**.  
 
-The subject of my PhD is linked with **mountain panorama maps**. It is a broad topic that covers many fields from history, geography, to visual perception and rendering.
+The subject of my PhD is linked with **mountain panorama maps**. It is a broad topic that covers many fields from history, cartography, to visual perception and rendering.
 I am focused on the style of the [Atelier Pierre Novat], that produces hand-made paintings with a high aesthetic quality but still conveying information in a very efficient way.
 My main goal is to **understand the style of the artist**, i.e. translate his sensitivity and intuitions into concepts and algorithms.
 I also aim at providing semi-automated ways to render such panoramas and tools to allow artists to finely control their production.
 One of the key idea is to **understand what degrees of freedom we have with respect to reality, without altering global coherence and plausibility of the panorama**.  
 
 ## Publications
-
 
 <!-- display based on date and publication type -->
 <!-- either journal, conference, talk or report -->
