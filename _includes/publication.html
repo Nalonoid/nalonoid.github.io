@@ -1,12 +1,12 @@
 <table width="100%">
 <tr>
-  <td><img src="{{ site.url | append: site.baseurl }}/{{ paper.thumbnail }}" width="{{ imgwidth }}" height="{{ imgwidth }}" style="margin-bottom:10px;margin-right:10px;border:0.7px solid black;"/></td>
+  <td><img src="{{ site.baseurl }}/{{ paper.thumbnail }}" width="{{ imgwidth }}" height="{{ imgwidth }}" style="margin-bottom:10px;margin-right:10px;border:0.7px solid black;"/></td>
   <td width="90%" style="vertical-align:top;"><a class="paper-title" href="{{ paper.url | prepend: site.baseurl }}">{{ paper.title }}</a> <br/>
       <div class="paper-authors">{{ paper.authors }}<br/></div>
       <div class="paper-journal">{{ paper.where }}, {{ d }} {% if paper.award %} <span class="paper-award"> &#8680; {{ paper.award }} </span>{% endif %}<br/></div>
    <div class="paper-journal">
-    {% if paper.pdf %} <a class="black" href="{{ paper.pdf }}"><img src="{{ site.url | append: site.baseurl }}/data/icons/pdf.png" width="30px" /> </a> {% endif %}
-    {% if paper.bib %} <a class="black" href="{{ paper.bib }}"><img src="{{ site.url | append: site.baseurl }}/data/icons/bib.png" width="30px" /> </a> {% endif %}
+    {% if paper.pdf %} <a class="black" href="{{ paper.pdf }}"><img src="{{ site.baseurl }}/data/icons/pdf.png" width="30px" /> </a> {% endif %}
+    {% if paper.bib %} <a class="black" href="{{ paper.bib }}"><img src="{{ site.baseurl }}/data/icons/bib.png" width="30px" /> </a> {% endif %}
     [<a href="{{ paper.url | prepend: site.baseurl }}">more...</a>]
     </div>
   </td>

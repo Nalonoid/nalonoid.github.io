@@ -18,61 +18,67 @@ layout: default
     {{ page.date | date: '%B  %Y' }} {% if page.award %} <span class="paper-award"> &#8680; {{ page.award }} </span>{% endif %}<br/><br/>
 
     {% if page.pdf %}
-    <a href={{ page.pdf }}> <img src="{{ site.url | append: site.baseurl }}/data/icons/pdf.png"  width="25px" /></a>
-    <a class="paper-links" href={{ page.pdf }}> paper </a>
+    <a href={{ page.pdf }}> <img src="{{ site.baseurl }}/data/icons/pdf.png"  width="25px" /></a>
+    <a class="paper-links" href={{ page.pdf }}> published version </a>
+    &nbsp;&nbsp;
+    {% endif %}    
+
+    {% if page.pdf %}
+    <a href={{ page.pdf }}> <img src="{{ site.baseurl }}/data/icons/pdf.png"  width="25px" /></a>
+    <a class="paper-links" href={{ page.authorpdf }}> author version </a>
     &nbsp;&nbsp;
     {% endif %}    
 
     {% if page.pdfcmpr %}
-    <a href={{ page.pdfcmpr }}> <img src="{{ site.url | append: site.baseurl }}/data/icons/pdf.png"  width="25px" /></a>
-    <a class="paper-links" href={{ site.url | append: site.baseurl }}/{{ page.pdfcmpr }}> paper (low res) </a>
+    <a href={{ page.pdfcmpr }}> <img src="{{ site.baseurl }}/data/icons/pdf.png"  width="25px" /></a>
+    <a class="paper-links" href={{ site.baseurl }}/{{ page.pdfcmpr }}> author (low res) </a>
     &nbsp;&nbsp;
     {% endif %}    
 
     {% if page.supp %}
-    <a href={{ page.supp }}> <img src="{{ site.url | append: site.baseurl }}/data/icons/pdf.png"  width="25px" /></a>
+    <a href={{ page.supp }}> <img src="{{ site.baseurl }}/data/icons/pdf.png"  width="25px" /></a>
     <a class="paper-links" href={{ page.supp }}> supplementary </a>
     &nbsp;&nbsp;
     {% endif %}    
 
     {% if page.archive %}
-    <a href={{ page.archive }}> <img src="{{ site.url | append: site.baseurl }}/data/icons/zip.png"  width="25px" /></a>
+    <a href={{ page.archive }}> <img src="{{ site.baseurl }}/data/icons/zip.png"  width="25px" /></a>
     <a class="paper-links" href={{ page.archive }}> archive </a>
     &nbsp;&nbsp;
     {% endif %}   
 
     {% if page.src %}
-    <a href={{ page.src }}> <img src="{{ site.url | append: site.baseurl }}/data/icons/zip.png"  width="25px" /></a>
+    <a href={{ page.src }}> <img src="{{ site.baseurl }}/data/icons/zip.png"  width="25px" /></a>
     <a class="paper-links" href={{ page.src }}> sources </a>
     &nbsp;&nbsp;
     {% endif %}   
 
     {% if page.app %}
-    <a href={{ page.app }}> <img src="{{ site.url | append: site.baseurl }}/data/icons/zip.png"  width="25px" /></a>
+    <a href={{ page.app }}> <img src="{{ site.baseurl }}/data/icons/zip.png"  width="25px" /></a>
     <a class="paper-links" href={{ page.app }}> demo </a>
     &nbsp;&nbsp;
     {% endif %}   
 
     {% if page.video %}
-    <a href={{ page.video }}> <img src="{{ site.url | append: site.baseurl }}/data/icons/vid.png"  width="25px" /></a>
+    <a href={{ page.video }}> <img src="{{ site.baseurl }}/data/icons/vid.png"  width="25px" /></a>
     <a class="paper-links" href={{ page.video }}> video </a>
     &nbsp;&nbsp;
     {% endif %}   
 
     {% if page.bib %}
-    <a href={{ page.bib }}> <img src="{{ site.url | append: site.baseurl }}/data/icons/bib.png"  width="25px" /></a>
+    <a href={{ page.bib }}> <img src="{{ site.baseurl }}/data/icons/bib.png"  width="25px" /></a>
     <a class="paper-links" href={{ page.bib }}> bib </a>
     &nbsp;&nbsp;
     {% endif %}   
 
     {% if page.shadertoy %}
-    <a href="#shadertoy"> <img src="{{ site.url | append: site.baseurl }}/data/icons/shadertoy.png"  width="60px" /></a>
+    <a href="#shadertoy"> <img src="{{ site.baseurl }}/data/icons/shadertoy.png"  width="60px" /></a>
     <a class="paper-links" href="https://www.shadertoy.com/view/{{ page.shadertoy }}"></a>
     &nbsp;&nbsp;
     {% endif %}   
 
     {% if page.vimeo %}
-    <a href="#vimeo"> <img src="{{ site.url | append: site.baseurl }}/data/icons/vimeo.svg"  width="60px" /></a>
+    <a href="#vimeo"> <img src="{{ site.baseurl }}/data/icons/vimeo.svg"  width="60px" /></a>
     <a class="paper-links" href="https://vimeo.com/{{ page.vimeo }}"></a>
     &nbsp;&nbsp;
     {% endif %}   
@@ -80,7 +86,7 @@ layout: default
     </div>
 
     {% if page.image %}
-    <img class="aligncenter" src="{{ site.url | append: site.baseurl }}/{{ page.image }}"  height="400px" /><br/>
+    <img class="aligncenter" src="{{ site.baseurl }}/{{ page.image }}"  height="400px" /><br/>
     {% endif %}
 
     {% if page.abstract %}

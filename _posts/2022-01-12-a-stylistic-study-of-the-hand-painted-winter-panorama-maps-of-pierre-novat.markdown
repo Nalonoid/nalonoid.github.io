@@ -9,12 +9,13 @@ authors: "Nolan Mestres"
 thumbnail: "data/research/a_stylistic_study_of_the_style_of_pierre_novat-thumbnail.jpg"
 image: "data/research/a_stylistic_study_of_the_style_of_pierre_novat.jpg"
 where: "Cartographic Perspectives"
-pdf: https://hal.inria.fr/hal-03687248/document
+pdf: https://cartographicperspectives.org/index.php/journal/article/view/1753
+authorpdf: https://hal.inria.fr/hal-03687248/document
 pdfcmpr: "data/research/nm-cp2022-novat_style.pdf"
 bib: https://hal.inria.fr/hal-03687248/bibtex
 
 tags:
 - journal
-  
+
 ---
 

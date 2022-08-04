@@ -9,7 +9,8 @@ authors: "Nolan Mestres, Romain Vergne, Camille No&ucirc;s, Jo&euml;lle Thollot"
 thumbnail: "data/research/local_light_alignment-thumbnail.jpg"
 image: "data/research/local_light_alignment.jpg"
 where: "Eurographics"
-pdf: https://hal.inria.fr/hal-03140647/document
+pdf: https://doi.org/10.1111/cgf.142656
+authorpdf: https://hal.inria.fr/hal-03140647/document
 video: https://hal.inria.fr/hal-03140647/file/nm-EG2021-local_light_alignment-supplementary_video.mp4
 bib: https://hal.inria.fr/hal-03140647/bibtex
 shadertoy: "3ldfD2"
