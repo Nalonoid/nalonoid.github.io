@@ -15,17 +15,14 @@ layout: default
     {% if page.where %}
     {{ page.where }}, 
     {% endif %}    
-    {{ page.date | date: '%B  %Y' }} {% if page.award %} <span class="paper-award"> &#8680; {{ page.award }} </span>{% endif %}<br/><br/>
+    {{ page.date | date: '%B  %Y' }} {% if page.award %} <span class="paper-award"> &#8680; {{ page.award }} </span>{% endif %}<br/>
+    {% if page.doi %}
+    <a href=https://doi.org/{{ page.doi }}>https://doi.org/{{ page.doi }}</a>
+    {% endif %}<br/><br/>
 
     {% if page.pdf %}
     <a href={{ page.pdf }}> <img src="{{ site.baseurl }}/data/icons/pdf.png"  width="25px" /></a>
-    <a class="paper-links" href={{ page.pdf }}> published version </a>
-    &nbsp;&nbsp;
-    {% endif %}    
-
-    {% if page.pdf %}
-    <a href={{ page.pdf }}> <img src="{{ site.baseurl }}/data/icons/pdf.png"  width="25px" /></a>
-    <a class="paper-links" href={{ page.authorpdf }}> author version </a>
+    <a class="paper-links" href={{ page.pdf }}> author version </a>
     &nbsp;&nbsp;
     {% endif %}    
 
