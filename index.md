@@ -24,18 +24,20 @@ Location: [Maverick research team], Inria Grenoble, France
 
 ## News
 
-→06-2022 || My paper '[A Stylistic Study of the Hand-Painted Winter Panorama Maps of Pierre Novat]' has been accepted for publication in Cartographic Perspectives!
-→03-2021 || Our paper '[Local Light Alignment for Multi-Scale Shape Depiction]' has been accepted for publication in Computer Graphics Forum (Eurographics 2021)!
-→09-2018 || Got my master's degree from Toulouse III - Paul Sabatier University!
+06-2022 - My paper '[A Stylistic Study of the Hand-Painted Winter Panorama Maps of Pierre Novat]' has been accepted for publication in Cartographic Perspectives!
+
+03-2021 - Our paper '[Local Light Alignment for Multi-Scale Shape Depiction]' has been accepted for publication in Computer Graphics Forum (Eurographics 2021)!
+
+09-2018 - Got my master's degree from Toulouse III - Paul Sabatier University!
 
 ## Contact
 
-[nolan.mestres@inria.fr]  
+[nolan.mestres@inria.fr]
 (Signal) +33 6 59 02 87 85
 
-[Maverick research team]  
-INRIA Rhône-Alpes  
-655, avenue de l'Europe 38334, Saint-Ismier Cedex France  
+[Maverick research team]
+INRIA Rhône-Alpes
+655, avenue de l'Europe 38334, Saint-Ismier Cedex France
 
 [nolan.mestres@inria.fr]: mailto:nolan.mestres@inria.fr
 [Maverick research team]: https://maverick.inria.fr/

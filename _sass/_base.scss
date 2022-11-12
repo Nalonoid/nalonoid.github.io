@@ -45,6 +45,12 @@ img {
     vertical-align: middle;
 }
 
+iframe {
+    aspect-ratio: 16 / 9;
+    height: 100%;
+    width: 100%;
+}
+
 // Figures
 figure > img {
     display: block;
