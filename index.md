@@ -32,11 +32,11 @@ Location: [Maverick research team], Inria Grenoble, France
 
 ## Contact
 
-[nolan.mestres@inria.fr]
+[nolan.mestres@inria.fr]  
 (Signal) +33 6 59 02 87 85
 
-[Maverick research team]
-INRIA Rhône-Alpes
+[Maverick research team]  
+INRIA Rhône-Alpes  
 655, avenue de l'Europe 38334, Saint-Ismier Cedex France
 
 [nolan.mestres@inria.fr]: mailto:nolan.mestres@inria.fr
