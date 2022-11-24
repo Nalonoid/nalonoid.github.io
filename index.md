@@ -6,8 +6,8 @@ permalink: /
 
 {% include image.html me="1" height="300px" align="right" caption="" %}
 
-My name’s **Nolan** Mestres. I’m a third year **PhD student** within [Maverick research team] (Jean Kuntzmann Laboratory, Inria Grenoble), under the supervision of [Joëlle Thollot] and [Romain Vergne]. I focus my work on **expressive rendering** and image stylization, taking inspiration from the case study of **panorama maps**.
-I graduated in 2018 with a Master's degree in Computer Graphics & Image Analysis from Paul Sabatier University (Toulouse, France). I did my graduation internship under the supervision of [Imari Sato], at the National Institute of Informatics (Tokyo, Japan), working on spectral rendering and fluorescence. For more information about my educational background you can browse my (outdated) [resume].  
+My name’s **Nolan** Mestres. I’m a third year **PhD student** within [Maverick research team] (Jean Kuntzmann Laboratory, Inria Grenoble), under the supervision of [Joëlle Thollot] and [Romain Vergne]. I focus my work on **expressive rendering** and image stylization, taking inspiration from the case study of the haind-painted **panorama maps of Pierre Novat**.
+I graduated in 2018 with a Master's degree in Computer Graphics & Image Analysis from Paul Sabatier University (Toulouse, France). I did my graduation internship under the supervision of [Imari Sato], at the National Institute of Informatics (Tokyo, Japan), working on spectral rendering and fluorescence. For more information about my educational background you can browse my [resume].  
 
 ## Open positions 2022-2023
 
