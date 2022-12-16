@@ -7,7 +7,7 @@ permalink: /
 {% include image.html me="1" height="300px" align="right" caption="" %}
 
 My name’s **Nolan** Mestres. I am a post-doc within the [Maverick research team] (Jean Kuntzmann Laboratory, Inria Grenoble). My work focuses on **expressive rendering**, taking inspiration from the case study of the haind-painted **panorama maps of Pierre Novat**.
-This is a follow-up work of the PhD thesis I did under the supervision of [Joëlle Thollot] and [Romain Vergne], at Université Grenoble Alpes. Before that, during my Master's, I did my graduation internship under the supervision of [Imari Sato], at the National Institute of Informatics (Tokyo, Japan), working on spectral rendering and fluorescence. For more information about my educational background you can browse my (outdated) [resume].  
+This is a follow-up work of the PhD thesis I did under the supervision of [Joëlle Thollot] and [Romain Vergne], at Université Grenoble Alpes. Before that, during my Master's, I did my graduation internship under the supervision of [Imari Sato], at the National Institute of Informatics (Tokyo, Japan), working on spectral rendering and fluorescence. For more information about my educational background you can browse my [resume].
 
 ## Open positions 2022-2023
 
@@ -24,7 +24,7 @@ Location: [Maverick research team], Inria Grenoble, France
 
 ## News
 
-12-2022 - I defended my PhD thesis, titled 'Light Manipulation for an Expressive Depiction of Shape and Depth'!
+12-2022 - I defended my PhD thesis, titled '[Light Manipulation for an Expressive Depiction of Shape and Depth]'!
 
 06-2022 - My paper '[A Stylistic Study of the Hand-Painted Winter Panorama Maps of Pierre Novat]' has been accepted for publication in Cartographic Perspectives!
 
@@ -51,3 +51,4 @@ INRIA Rhône-Alpes
 
 [Local Light Alignment for Multi-Scale Shape Depiction]: ./research/local-light-alignment-for-multi-scale-shape-depiction
 [A Stylistic Study of the Hand-Painted Winter Panorama Maps of Pierre Novat]: ./research/a-stylistic-study-of-the-hand-painted-winter-panorama-maps-of-pierre-novat
+[Light Manipulation for an Expressive Depiction of Shape and Depth]: ./research/thesis

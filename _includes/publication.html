@@ -6,6 +6,7 @@
       <div class="paper-journal">{{ paper.where }}, {{ d }} {% if paper.award %} <span class="paper-award"> &#8680; {{ paper.award }} </span>{% endif %}<br/></div>
    <div class="paper-journal">
     {% if paper.pdf %} <a class="black" href="{{ paper.pdf }}"><img src="{{ site.baseurl }}/data/icons/pdf.png" width="30px" /> </a> {% endif %}
+    {% if paper.manuscript %} <a class="black" href="{{ paper.manuscript }}"><img src="{{ site.baseurl }}/data/icons/pdf.png" width="30px" /> </a> {% endif %}
     {% if paper.bib %} <a class="black" href="{{ paper.bib }}"><img src="{{ site.baseurl }}/data/icons/bib.png" width="30px" /> </a> {% endif %}
     [<a href="{{ paper.url | prepend: site.baseurl }}">more...</a>]
     </div>

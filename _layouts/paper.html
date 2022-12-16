@@ -28,7 +28,13 @@ layout: default
 
     {% if page.pdfcmpr %}
     <a href={{ page.pdfcmpr }}> <img src="{{ site.baseurl }}/data/icons/pdf.png"  width="25px" /></a>
-    <a class="paper-links" href={{ site.baseurl }}/{{ page.pdfcmpr }}> author (low res) </a>
+    <a class="paper-links" href={{ page.pdfcmpr }}> author (low res) </a>
+    &nbsp;&nbsp;
+    {% endif %}    
+
+    {% if page.manuscript %}
+    <a href={{ page.manuscript }}> <img src="{{ site.baseurl }}/data/icons/pdf.png"  width="25px" /></a>
+    <a class="paper-links" href={{ page.manuscript }}> manuscript </a>
     &nbsp;&nbsp;
     {% endif %}    
 

@@ -36,12 +36,13 @@ One of the key idea is to **understand what degrees of freedom we have with resp
 <!-- loop over each date containing a publication -->
 <div class="post">
 {% for d in dates %}
-  <!-- count journals, conferences, talks and reports for the current year -->
+  <!-- count journals, conferences, talks, reports, book chapters, thesis for the current year -->
   {% assign nb_j=0 %}
   {% assign nb_c=0 %}
   {% assign nb_t=0 %}
   {% assign nb_r=0 %}
   {% assign nb_b=0 %}
+  {% assign nb_th=0 %}
   {% for paper in site.posts %}
     {% capture year %}{{paper.date | date: "%Y"}}{% endcapture %}
     {% if year == d %}
@@ -64,6 +65,10 @@ One of the key idea is to **understand what degrees of freedom we have with resp
 
       {% if paper.tags contains 'bookchap' %}
         {% assign nb_b=nb_b | plus: 1 %}
+      {% endif %}
+
+      {% if paper.tags contains 'thesis' %}
+        {% assign nb_th=nb_th | plus: 1 %}
       {% endif %}
 
     {% endif %}
@@ -111,7 +116,7 @@ One of the key idea is to **understand what degrees of freedom we have with resp
       {% endif %}
     {% endfor %}
   {% endif %}
-    
+
   {% if nb_r>0 %}
     <div class="publication-type"> — Research reports —</div>
     {% for paper in site.posts %}
@@ -121,7 +126,19 @@ One of the key idea is to **understand what degrees of freedom we have with resp
       {% endif %}
     {% endfor %}
   {% endif %}
+
+  {% if nb_th>0 %}
+    <div class="publication-type"> — Thesis —</div>
+    {% for paper in site.posts %}
+      {% capture year %}{{paper.date | date: "%Y"}}{% endcapture %}
+      {% if year == d and paper.tags contains 'thesis' %}
+        {% include publication.html %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
 {% endfor %}
 </div>
+
+
 
 [Atelier Pierre Novat]: http://atelier.novat.free.fr/atelier_pierre_novat/liste_des_panoramas.html

@@ -1,0 +1,18 @@
+---
+layout: paper
+
+title: "Light Manipulation for an Expressive Depiction of Shape and Depth"
+
+abstract: "A realistic depiction of a scene is often not the optimal choice to efficiently convey a message. In this thesis, we investigate how visual artists control lighting to influence our perception of physical properties of the scene. We are particularly interested in their uses of shading and cast shadows to depict shape and depth information. We find a particular case-study in the style of the hand-painted panorama maps of Pierre Novat (1928-2007), who excelled at depicting complex mountainous landscapes. We study Novat’s pictorial style and how he freed himself from depicting mountains realistically, in favour of effectively transmitting the necessary information for terrain understanding.<br/><br/>Drawing on Vision Science and our study of Novat’s artworks, we introduce novel methods aimed at enhancing the depiction of shape and depth information in 3D renderings:<br/><br/>Our first method, Local Light Alignment, focuses on enhancing shape depiction at multiple scales by controlling the shading intensity locally at the surface. We change the light direction at each surface point to ensure congruence between the actual physical shape and its shading patterns. We extend our approach to control material components independently, e.g., highlights and refractions.<br/><br/>Our second approach focuses on cast shadows. They can at the same time mask areas, hindering our perception, as well as provide our visual system with depth, shape, and spatial arrangement information. Our method computes geometry-dependent light directions ensuring a correct placement of cast shadows. We also propose multi-scale cast shadows to reintroduce lost depth and shape cues in already shadowed areas.<br/><br/>Finally, we show the effectiveness of our lighting editing algorithms in the context of analytical shading (2D maps), as well as for 3D panorama maps."
+
+authors: "Nolan Mestres"
+thumbnail: "data/research/thesis-thumbnail.jpg"
+image: "data/research/thesis-teaser.png"
+where: "Grenoble Alpes University"
+manuscript: https://hal.inria.fr/tel-03902130/document
+bib: https://hal.inria.fr/tel-03902130/bibtex
+
+tags:
+- thesis
+---
+
