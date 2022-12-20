@@ -56,6 +56,12 @@ layout: default
     &nbsp;&nbsp;
     {% endif %}   
 
+    {% if page.slides %}
+    <a href={{ page.slides }}> <img src="{{ site.baseurl }}/data/icons/slides.png"  width="25px" /></a>
+    <a class="paper-links" href={{ page.slides }}>slides</a>
+    &nbsp;&nbsp;
+    {% endif %}   
+
     {% if page.app %}
     <a href={{ page.app }}> <img src="{{ site.baseurl }}/data/icons/zip.png"  width="25px" /></a>
     <a class="paper-links" href={{ page.app }}> demo </a>
