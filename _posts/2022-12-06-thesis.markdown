@@ -11,6 +11,7 @@ image: "data/research/thesis-teaser.png"
 where: "Grenoble Alpes University"
 manuscript: https://hal.inria.fr/tel-03902130/document
 bib: https://hal.inria.fr/tel-03902130/bibtex
+vimeo: "782966888"
 
 tags:
 - thesis
