@@ -77,6 +77,16 @@ One of the key idea is to **understand what degrees of freedom we have with resp
   <!-- add them in order -->
   <div class="publication-date" align="middle"> {{ d }}<br></div>
 
+  {% if nb_th>0 %}
+    <div class="publication-type"> — Thesis —</div>
+    {% for paper in site.posts %}
+      {% capture year %}{{paper.date | date: "%Y"}}{% endcapture %}
+      {% if year == d and paper.tags contains 'thesis' %}
+        {% include publication.html %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+
   {% if nb_j>0 %}
     <div class="publication-type"> — Journal papers —</div>
     {% for paper in site.posts %}
@@ -122,16 +132,6 @@ One of the key idea is to **understand what degrees of freedom we have with resp
     {% for paper in site.posts %}
       {% capture year %}{{paper.date | date: "%Y"}}{% endcapture %}
       {% if year == d and paper.tags contains 'report' %}
-        {% include publication.html %}
-      {% endif %}
-    {% endfor %}
-  {% endif %}
-
-  {% if nb_th>0 %}
-    <div class="publication-type"> — Thesis —</div>
-    {% for paper in site.posts %}
-      {% capture year %}{{paper.date | date: "%Y"}}{% endcapture %}
-      {% if year == d and paper.tags contains 'thesis' %}
         {% include publication.html %}
       {% endif %}
     {% endfor %}
