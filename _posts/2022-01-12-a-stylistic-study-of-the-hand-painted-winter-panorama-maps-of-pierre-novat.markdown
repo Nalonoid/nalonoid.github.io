@@ -10,7 +10,7 @@ thumbnail: "data/research/a_stylistic_study_of_the_style_of_pierre_novat-thumbna
 image: "data/research/a_stylistic_study_of_the_style_of_pierre_novat.jpg"
 where: "Cartographic Perspectives"
 pdf: https://hal.inria.fr/hal-03687248/document
-pdfcmpr: "data/research/nm-cp2022-novat_style.pdf"
+pdfcmpr: "/data/research/nm-cp2022-novat_style.pdf"
 bib: https://hal.inria.fr/hal-03687248/bibtex
 doi: 10.14714/CP100.1753
 
