@@ -12,6 +12,7 @@ where: "Grenoble Alpes University"
 manuscript: https://hal.inria.fr/tel-03902130/document
 bib: https://hal.inria.fr/tel-03902130/bibtex
 vimeo: "782966888"
+slides: https://hal.inria.fr/tel-03902130/file/defense-presentation.pptx
 
 tags:
 - thesis
