@@ -24,11 +24,13 @@ Location: [Maverick research team], Inria Grenoble, France
 
 ## News
 
+04-2023 - I presented our '[Controllable Lighting Model for the Rendering of Panorama Maps]' at the [Mountain Cartography Workshop]!
+
 12-2022 - I defended my PhD thesis, titled '[Light Manipulation for an Expressive Depiction of Shape and Depth]'!
 
-06-2022 - My paper '[A Stylistic Study of the Hand-Painted Winter Panorama Maps of Pierre Novat]' has been accepted for publication in Cartographic Perspectives!
+06-2022 - My '[Stylistic Study of the Hand-Painted Panorama Maps of Pierre Novat]' has been accepted for publication in Cartographic Perspectives!
 
-03-2021 - Our paper '[Local Light Alignment for Multi-Scale Shape Depiction]' has been accepted for publication in Computer Graphics Forum (Eurographics 2021)!
+03-2021 - Our paper '[Local Light Alignment for Multi-Scale Shape Depiction]' has been accepted for publication in CGF (Eurographics 2021)!
 
 09-2018 - Got my master's degree from Toulouse III - Paul Sabatier University!
 
@@ -50,5 +52,7 @@ INRIA Rhône-Alpes
 [Internships in the context of stylized panorama maps]: https://maverick.inria.fr/Membres/Joelle.Thollot/SujetsStages/internships_panorama_2223.pdf
 
 [Local Light Alignment for Multi-Scale Shape Depiction]: ./research/local-light-alignment-for-multi-scale-shape-depiction
-[A Stylistic Study of the Hand-Painted Winter Panorama Maps of Pierre Novat]: ./research/a-stylistic-study-of-the-hand-painted-winter-panorama-maps-of-pierre-novat
+[Stylistic Study of the Hand-Painted Panorama Maps of Pierre Novat]: ./research/a-stylistic-study-of-the-hand-painted-winter-panorama-maps-of-pierre-novat
 [Light Manipulation for an Expressive Depiction of Shape and Depth]: ./research/thesis
+[Controllable Lighting Model for the Rendering of  Panorama Maps]: ./research/controllable-lighting-model-for-the-rendering-of-panorama-maps-in-the-style-of-novat
+[Mountain Cartography Workshop]: https://www.shadedrelief.com/workshop/Program.pdf
