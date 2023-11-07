@@ -4,25 +4,14 @@ title: About
 permalink: /
 ---
 
-{% include image.html me="1" height="300px" align="right" caption="" %}
+{% include image.html me="1" height="250px" align="right" caption="" %}
 
 My name’s **Nolan** Mestres. I am a post-doc within the [Maverick research team] (Jean Kuntzmann Laboratory, Inria Grenoble). My work focuses on **expressive rendering**, taking inspiration from the case study of the haind-painted **panorama maps of Pierre Novat**.
 This is a follow-up work of the PhD thesis I did under the supervision of [Joëlle Thollot] and [Romain Vergne], at Université Grenoble Alpes. Before that, during my Master's, I did my graduation internship under the supervision of [Imari Sato], at the National Institute of Informatics (Tokyo, Japan), working on spectral rendering and fluorescence. For more information about my educational background you can browse my [resume].
 
-## Open positions 2022-2023
-
-[Internships in the context of stylized panorama maps]
-
-Supervised by Joëlle Thollot, Romain Vergne, Fabrice Neyret, Kenneth Vanhoey, and myself, depending on the chosen topic.
-
-- generalization of GIS data (filtering, smoothing, LoD,...)
-- rendering of cartographic elements (trees, rock, roads, buildings)
-- semi-automatic terrain deformation (human-computer interaction, optimization problem)
-- open to proposals within this framework!
-
-Location: [Maverick research team], Inria Grenoble, France
-
 ## News
+
+11-2023 - I'll present my thesis work (in French) as part of the '[3D for Humanities and Social Science Consortium]'!
 
 04-2023 - I presented our '[Controllable Lighting Model for the Rendering of Panorama Maps]' at the [Mountain Cartography Workshop]!
 
@@ -56,3 +45,4 @@ INRIA Rhône-Alpes
 [Light Manipulation for an Expressive Depiction of Shape and Depth]: ./research/thesis
 [Controllable Lighting Model for the Rendering of  Panorama Maps]: ./research/controllable-lighting-model-for-the-rendering-of-panorama-maps-in-the-style-of-novat
 [Mountain Cartography Workshop]: https://www.shadedrelief.com/workshop/Program.pdf
+[3D for Humanities and Social Science Consortium]: https://jc3dshs2023.sciencesconf.org
