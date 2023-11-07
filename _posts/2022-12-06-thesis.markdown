@@ -9,10 +9,10 @@ authors: "Nolan Mestres"
 thumbnail: "data/research/thesis-thumbnail.jpg"
 image: "data/research/thesis-teaser.png"
 where: "Grenoble Alpes University"
-manuscript: https://hal.inria.fr/tel-03902130/document
-bib: https://hal.inria.fr/tel-03902130/bibtex
+manuscript: https://theses.hal.science/tel-04061229/document
+bib: https://theses.hal.science/tel-04061229/bibtex
 vimeo: "782966888"
-slides: https://hal.inria.fr/tel-03902130/file/defense-presentation.pptx
+slides: https://theses.hal.science/tel-04061229v1/file/defense-presentation.pptx
 
 tags:
 - thesis
