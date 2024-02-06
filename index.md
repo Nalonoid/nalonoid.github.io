@@ -6,7 +6,7 @@ permalink: /
 
 {% include image.html me="1" height="250px" align="right" caption="" %}
 
-My name’s **Nolan** Mestres. I am a post-doc within the [Maverick research team] (Jean Kuntzmann Laboratory, Inria Grenoble). My work focuses on **expressive rendering**, taking inspiration from the case study of the haind-painted **panorama maps of Pierre Novat**.
+My name’s **Nolan** Mestres. I am a post-doc within the [Maverick research team] (Jean Kuntzmann Laboratory, Inria Grenoble). My work focuses on **expressive rendering**, taking inspiration from the case study of the hand-painted **panorama maps of Pierre Novat**.
 This is a follow-up work of the PhD thesis I did under the supervision of [Joëlle Thollot] and [Romain Vergne], at Université Grenoble Alpes. Before that, during my Master's, I did my graduation internship under the supervision of [Imari Sato], at the National Institute of Informatics (Tokyo, Japan), working on spectral rendering and fluorescence. For more information about my educational background you can browse my [resume].
 
 ## News
