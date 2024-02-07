@@ -11,9 +11,9 @@ This is a follow-up work of the PhD thesis I did under the supervision of [Joël
 
 ## News
 
-11-2023 - I'll present my thesis work (in French) as part of the '[3D for Humanities and Social Science Consortium]'!
+11-2023 - I'll present my [work] as part of the '[3D for Humanities and Social Science] French Consortium'!
 
-04-2023 - I presented our '[Controllable Lighting Model for the Rendering of Panorama Maps]' at the [Mountain Cartography Workshop]!
+04-2023 - I presented our '[Controllable Lighting Model for the Rendering of Panorama Maps]' at the 12th [Mountain Cartography Workshop]!
 
 12-2022 - I defended my PhD thesis, titled '[Light Manipulation for an Expressive Depiction of Shape and Depth]'!
 
@@ -45,4 +45,5 @@ INRIA Rhône-Alpes
 [Light Manipulation for an Expressive Depiction of Shape and Depth]: ./research/thesis
 [Controllable Lighting Model for the Rendering of  Panorama Maps]: ./research/controllable-lighting-model-for-the-rendering-of-panorama-maps-in-the-style-of-novat
 [Mountain Cartography Workshop]: https://www.shadedrelief.com/workshop/Program.pdf
-[3D for Humanities and Social Science Consortium]: https://jc3dshs2023.sciencesconf.org
+[3D for Humanities and Social Science]: https://jc3dshs2023.sciencesconf.org
+[work]: ./research/tricher-avec-la-lumière-pour-mieux-percevoir
