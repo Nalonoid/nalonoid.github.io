@@ -11,9 +11,13 @@ This is a follow-up work of the PhD thesis I did under the supervision of [Joël
 
 # News
 
+05-2024 - We presented the [history of Atelier Novat] and how it inspired the micmap project at [Festival Printemps des Cartes]!
+
+04-2024 - We presented our creation process for the [7 Laux panorama] at the [13th Mountain Cartography Workshop]!
+
 11-2023 - I'll present my [work] as part of the '[3D for Humanities and Social Science] French Consortium'!
 
-04-2023 - I presented our '[Controllable Lighting Model for the Rendering of Panorama Maps]' at the 12th [Mountain Cartography Workshop]!
+04-2023 - I presented our '[Controllable Lighting Model for the Rendering of Panorama Maps]' at the [12th Mountain Cartography Workshop]!
 
 12-2022 - I defended my PhD thesis, titled '[Light Manipulation for an Expressive Depiction of Shape and Depth]'!
 
@@ -44,6 +48,11 @@ INRIA Rhône-Alpes
 [Stylistic Study of the Hand-Painted Panorama Maps of Pierre Novat]: ./research/a-stylistic-study-of-the-hand-painted-winter-panorama-maps-of-pierre-novat
 [Light Manipulation for an Expressive Depiction of Shape and Depth]: ./research/thesis
 [Controllable Lighting Model for the Rendering of  Panorama Maps]: ./research/controllable-lighting-model-for-the-rendering-of-panorama-maps-in-the-style-of-novat
-[Mountain Cartography Workshop]: https://www.shadedrelief.com/workshop/Program.pdf
+[12th Mountain Cartography Workshop]: https://www.shadedrelief.com/workshop/Program.pdf
+[13th Mountain Cartography Workshop]: https://www.shadedrelief.com/zakopane/Program.pdf
 [3D for Humanities and Social Science]: https://jc3dshs2023.sciencesconf.org
+[Festival Printemps des Cartes]: https://www.printempsdescartes.fr/
+
 [work]: ./research/tricher-avec-la-lumière-pour-mieux-percevoir
+[7 Laux panorama]: ./research/faking-reality-for-generating-panorama-maps
+[history of Atelier Novat]: ./research/de-l-atelier-novat-au-projet-micmap
