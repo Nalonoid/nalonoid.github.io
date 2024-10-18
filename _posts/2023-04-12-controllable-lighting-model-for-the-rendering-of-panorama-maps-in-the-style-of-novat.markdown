@@ -9,10 +9,10 @@ authors: "Nolan Mestres, Romain Vergne, Jo&euml;lle Thollot, Arthur Novat"
 thumbnail: "data/research/controllable_lighting_model_for_designing_panorama_maps_in_the_style_of_novat-thumbnail.jpg"
 image: "data/research/controllable_lighting_model_for_designing_panorama_maps_in_the_style_of_novat.jpg"
 where: "ICA 12th Mountain Cartography Workshop, Colorado, USA"
-pdf: https://hal.inria.fr/hal-04070162/document
+pdf: https://inria.hal.science/hal-04070162/document
 pdfcmpr: "/data/research/nm-MCW23-lighting_model_for_panorama.pdf"
 slides: "/data/research/nm-MCW23-lighting_model_for_panorama-slides.pdf"
-bib: https://hal.inria.fr/hal-04070162/bibtex
+bib: https://inria.hal.science/hal-04070162/bibtex
 #doi: 10.14714/CP100.1753
 
 tags:
